@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.options {
+  margin: 30px;
+}
+
+.options button {
+  padding: 5px 10px 5px 10px;
+  margin: 10px;
+}
+
+.timer-container {
+  width: 200px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.time-up {
+  color: red;
+  font-weight: 700;
+}
